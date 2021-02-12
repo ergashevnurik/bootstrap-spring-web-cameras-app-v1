@@ -30,53 +30,55 @@
 <main id="main">
 
     <!-- Sticky Navbar Place -->
-    <div class="container-fluid bg-dark" style="background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 84%);">
-        <div class="row">
-            <h3 style="margin-left: 25px;">MENZ</h3>
-            <a href="tel:+9989 93 396 58 86" target="_self" class="ml-auto">
-                <i class="bi bi-phone"></i>
-                +9989 93 396 58 86
-            </a>
+    <div class="container-fluid bg-dark">
+        <div class="container">
+            <div class="row">
+                <h3 style="margin-left: 25px;">MENZ</h3>
+                <a href="tel:+9989 93 396 58 86" target="_self" class="ml-auto">
+                    <i class="bi bi-phone"></i>
+                    +9989 93 396 58 86
+                </a>
+            </div>
         </div>
     </div>
     <!-- Sticky Navbar Place -->
 
     <!-- Navbar Goes Here -->
-    <nav class="navbar navbar-expand-md bg-dark sticky-top navbar-dark" style="background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 84%);">
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">MENZ</a>
+    <nav class="navbar navbar-expand-md bg-dark sticky-top navbar-dark">
+        <div class="container">
+            <!-- Brand -->
+            <a class="navbar-brand" href="#">MENZ</a>
 
-        <!-- Toggler/collapsibe Button -->
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <!-- Navbar links -->
-        <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link" href="#hero">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#services">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#link">Link</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#blog">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contacts">Contacts</a>
-                </li>
-            </ul>
-            <div>
-                <a href="" class="btn btn-light">Sign up</a>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-center" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#link">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                </ul>
+                <div class="ml-auto">
+                    <a href="" class="btn btn-light">Sign up</a>
+                </div>
             </div>
         </div>
     </nav>
@@ -91,8 +93,7 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 
                         <h1 style="font-size: 5rem!important">Sticky Navbar</h1>
                         <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
                         <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
-                        <a href="" class="btn btn-dark mb-2" style="background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 84%);outline: none;border: none">Let's Start</a>
+                        <a href="" class="btn btn-dark mb-2">Let's Start</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -170,8 +171,7 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 
                         <h1>Sticky Navbar</h1>
                         <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
                         <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
-                        <a href="" class="btn btn-dark" style="background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 84%);outline: none;border: none">Let's Start</a>
+                        <a href="" class="btn btn-dark">Let's Start</a>
                     </div>
                 </div>
             </div>
@@ -182,8 +182,7 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 
 
 
     <!-- Link Row Section Goes Here -->
-    <section id="link" class="bg-dark" style="background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 84%);outline: none;border: none">
+    <section id="link" class="bg-dark">
         <div class="container">
             <h1>Link Section</h1>
             <div class="row">
@@ -292,8 +291,7 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 
                         <h1 style="font-size: 5rem!important">Sticky Navbar</h1>
                         <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
                         <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
-                        <a href="" class="btn btn-dark mb-2" style="background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 84%);outline: none;border: none">Let's Start</a>
+                        <a href="" class="btn btn-dark mb-2">Let's Start</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -310,11 +308,10 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 
                             <label>Phone Number</label>
                             <input class="form-control" placeholder="Enter Phone Number" name="phoneNumber" value=""></input>
                         </div>
-                        <div class="form-group">
-                            <textarea></textarea>
-                        </div>
-                        <button class="btn btn-dark" style="background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 84%);outline: none;border: none">Submit</button>
+                        <#--<div class="form-group">-->
+                            <#--<textarea></textarea>-->
+                        <#--</div>-->
+                        <button class="btn btn-dark">Submit</button>
                     </form>
                 </div>
             </div>
@@ -326,8 +323,7 @@ background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 
 
 
     <!-- Footer Section Goes Here -->
-    <footer id="footer" class="bg-dark" style="background: rgb(238,174,202);
-background: linear-gradient(90deg, rgba(238,174,202,1) 47%, rgba(148,187,233,1) 84%);outline: none;border: none">
+    <footer id="footer" class="bg-dark">
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
