@@ -24,6 +24,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <!-- Icons Bootstrap 4 Ends Here -->
 
+    <!-- AOS Animation o scroll Goes Here -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS Animation o scroll Ends Here -->
+
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
@@ -135,19 +139,19 @@
         <div class="container">
             <h1>About</h1>
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="flip-left">
                     <i class="bi bi-alarm-fill" style="font-size: 50px"></i>
                     <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="flip-left">
                     <i class="bi bi-heart-fill" style="font-size: 50px"></i>
                     <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="flip-right">
                     <i class="bi bi-cup" style="font-size: 50px"></i>
                     <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-3" data-aos="flip-right">
                     <i class="bi bi-globe" style="font-size: 50px"></i>
                     <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
                 </div>
@@ -163,10 +167,10 @@
         <div class="container">
             <h1>Services</h1>
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in-right">
                     <img class="d-block w-100" src="../static/img/carousel/1.png"  alt="Third slide">
                 </div>
-                <div class="col-md-6 display-flex">
+                <div class="col-md-6 display-flex" data-aos="zoom-in-left">
                     <div class="col-md-12">
                         <h1>Sticky Navbar</h1>
                         <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
@@ -186,7 +190,7 @@
         <div class="container">
             <h1>Link Section</h1>
             <div class="row">
-                <div class="col-md-12 text-center">
+                <div class="col-md-12 text-center" data-aos="zoom-in">
                     <h1 style="font-size: 5rem!important">Sticky Navbar</h1>
                     <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
                     <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
@@ -207,7 +211,7 @@
                     <!-- Inner Row For Displaying Cards Flexible goes Here -->
                     <h1>Our Videos</h1>
                     <div class="row">
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="zoom-in-left">
                             <div class="card">
                                 <div class="card-head">
                                     <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_177476e0986%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_177476e0986%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22276.9921875%22%20y%3D%22217.7%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide">
@@ -218,7 +222,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="zoom-in-left">
                             <div class="card">
                                 <div class="card-head">
                                     <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_177476e0986%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_177476e0986%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22276.9921875%22%20y%3D%22217.7%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide">
@@ -229,7 +233,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-4" data-aos="zoom-in-left">
                             <div class="card">
                                 <div class="card-head">
                                     <img class="d-block w-100" src="data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%22800%22%20height%3D%22400%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20800%20400%22%20preserveAspectRatio%3D%22none%22%3E%3Cdefs%3E%3Cstyle%20type%3D%22text%2Fcss%22%3E%23holder_177476e0986%20text%20%7B%20fill%3A%23333%3Bfont-weight%3Anormal%3Bfont-family%3AHelvetica%2C%20monospace%3Bfont-size%3A40pt%20%7D%20%3C%2Fstyle%3E%3C%2Fdefs%3E%3Cg%20id%3D%22holder_177476e0986%22%3E%3Crect%20width%3D%22800%22%20height%3D%22400%22%20fill%3D%22%23555%22%3E%3C%2Frect%3E%3Cg%3E%3Ctext%20x%3D%22276.9921875%22%20y%3D%22217.7%22%3EThird%20slide%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E" alt="Third slide">
@@ -243,7 +247,7 @@
                     </div>
                     <!-- Inner Row For Displaying Cards Flexible goes Here -->
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="zoom-in-right">
                     <h1>Our Blog</h1>
                     <div class="row mb-2"  style="flex-wrap: nowrap;"style="flex-wrap: nowrap;">
                         <div>
@@ -254,7 +258,7 @@
                         </div>
                         <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
                     </div>
-                    <div class="row mb-2" style="flex-wrap: nowrap;">
+                    <div class="row mb-2" data-aos="zoom-in-right" style="flex-wrap: nowrap;">
                         <div>
                             <a href="" class="mr-2 btn btn-dark d-block">
                                 <h4>08</h4>
@@ -263,7 +267,7 @@
                         </div>
                         <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
                     </div>
-                    <div class="row mb-2" style="flex-wrap: nowrap;">
+                    <div class="row mb-2" data-aos="zoom-in-right" style="flex-wrap: nowrap;">
                         <div>
                             <a href="" class="mr-2 btn btn-dark d-block">
                                 <h4>08</h4>
@@ -286,7 +290,7 @@
         <div class="container">
             <h1>Contacts</h1>
             <div class="row">
-                <div class="col-md-6 display-flex">
+                <div class="col-md-6 display-flex" data-aos="zoom-in-left">
                     <div class="col-md-12">
                         <h1 style="font-size: 5rem!important">Sticky Navbar</h1>
                         <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
@@ -294,7 +298,7 @@
                         <a href="" class="btn btn-dark mb-2">Let's Start</a>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-6" data-aos="zoom-in-right">
                     <form>
                         <div class="form-group">
                             <label>First Name</label>
@@ -427,6 +431,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <!-- Bootstrap 4 JS Ends Here -->
+
+<!-- AOS Animation o scroll Goes Here -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="../static/js/aos.js"></script>
+<!-- AOS Animation o scroll Ends Here -->
 
 </body>
 </html>
