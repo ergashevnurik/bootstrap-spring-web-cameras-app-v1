@@ -148,7 +148,7 @@
     <!-- About Section Goes Here -->
     <section id="about">
         <div class="container">
-            <h1>About</h1>
+            <h1>Ab<img src="../static/img/carousel/index/contentImg.svg" style="width:50px;height:50px;" />ut</h1>
             <div class="row">
                 <div class="col-md-3" data-aos="flip-left">
                     <i class="bi bi-alarm-fill" style="font-size: 50px"></i>
@@ -199,7 +199,7 @@
     <!-- Link Row Section Goes Here -->
     <section id="link" class="bg-dark">
         <div class="container">
-            <h1>Link Section</h1>
+            <h1>Link Secti<img src="../static/img/carousel/index/contentImg.svg" style="width:50px;height:50px;" />n</h1>
             <div class="row">
                 <div class="col-md-12 text-center" data-aos="zoom-in">
                     <h1 style="font-size: 5rem!important">Sticky Navbar</h1>
@@ -220,7 +220,7 @@
             <div class="row">
                 <div class="col-md-8">
                     <!-- Inner Row For Displaying Cards Flexible goes Here -->
-                    <h1>Our Videos</h1>
+                    <h1><img src="../static/img/carousel/index/contentImg.svg" style="width:50px;height:50px;" />ur Videos</h1>
                     <div class="row">
                         <div class="col-md-4" data-aos="flip-left">
                             <div class="card">
@@ -259,7 +259,7 @@
                     <!-- Inner Row For Displaying Cards Flexible goes Here -->
                 </div>
                 <div class="col-md-4" data-aos="flip-left">
-                    <h1>Our Blog</h1>
+                    <h1><img src="../static/img/carousel/index/contentImg.svg" style="width:50px;height:50px;" />ur Blog</h1>
                     <div class="row mb-2"  style="flex-wrap: nowrap;"style="flex-wrap: nowrap;">
                         <div>
                             <a href="" class="mr-2 btn btn-dark d-block">
@@ -299,7 +299,7 @@
     <!-- Contacts Section Goes Here -->
     <section id="contacts">
         <div class="container">
-            <h1>Contacts</h1>
+            <h1>C<img src="../static/img/carousel/index/contentImg.svg" style="width:50px;height:50px;" />ntacts</h1>
             <div class="row">
                 <div class="col-md-6 display-flex">
                     <div class="col-md-12" data-aos="flip-left">
@@ -324,7 +324,7 @@
                             <input class="form-control" placeholder="Enter Phone Number" name="phoneNumber" value=""></input>
                         </div>
                         <#--<div class="form-group">-->
-                            <#--<textarea></textarea>-->
+                        <#--<textarea></textarea>-->
                         <#--</div>-->
                         <button class="btn btn-dark">Submit</button>
                     </form>
