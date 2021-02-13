@@ -58,6 +58,10 @@ body {
     align-items: center;
 }
 
+#hero .container .row .col-md-6 .carousel .carousel-inner .carousel-item {
+    background: linear-gradient(to bottom, #343a40 35%, #34a1eb);
+    border-radius: 50%;
+}
 /* Hero Section Styling Ends Here */
 
 
