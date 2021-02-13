@@ -13,10 +13,22 @@
 
 .container-fluid .row a {
     display: flex;
-    color: white;
     justify-content: center;
     align-items: center;
     text-decoration: none;
+}
+
+.container-fluid .container .row .social-icons  a {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 26px;
+}
+
+.container-fluid .container .row .sticky-top-logo {
+    margin-top: auto;
+    margin-bottom: auto!important;
+    font-size: 2.3rem;
 }
 /* Container-Fluid Sticky Navbar Ends Here */
 

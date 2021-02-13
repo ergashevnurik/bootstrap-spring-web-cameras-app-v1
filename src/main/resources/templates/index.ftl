@@ -37,11 +37,22 @@
     <div class="container-fluid bg-dark">
         <div class="container">
             <div class="row">
-                <h3 style="margin-left: 25px;">MENZ</h3>
-                <a href="tel:+9989 93 396 58 86" target="_self" class="ml-auto">
-                    <i class="bi bi-phone"></i>
-                    +9989 93 396 58 86
-                </a>
+                <div class="row social-icons">
+                    <a href="">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                </div>
+                <h3 style="margin-left: 25px;" class="ml-auto sticky-top-logo">MENZ</h3>
+                <div class="ml-auto">
+                    <p><i class="bi bi-phone"></i>+9989 93 396 58 86</p>
+                    <a href="tel:+9989 93 396 58 86" target="_self" class="btn btn-light">Order a Call</a>
+                </div>
             </div>
         </div>
     </div>
