@@ -190,5 +190,10 @@ p {
     margin-right: 0!important;
     margin-left: 0!important;
 }
+
+.btn, .card {
+    box-shadow: 1px 1px 12px 0 rgba(0,0,0,0.3),
+                0 6px 20px 0 rgba(0,0,0,0.4);
+}
 /* Constants Variables Goes Here */
 
