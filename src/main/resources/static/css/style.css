@@ -253,6 +253,10 @@ nav::before {
     padding: 20px;
 }
 
+#footer .container .row .col-md-3 h5 {
+    color: #34a1eb;
+}
+
 #footer .container .row .col-md-3 .footer-un-ordered-list {
     list-style: none;
 }
