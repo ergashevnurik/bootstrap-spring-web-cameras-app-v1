@@ -290,3 +290,29 @@ p {
 }
 /* Constants Variables Goes Here */
 
+
+
+
+/*  All Animations Goes Here */
+#services .container .row .col-md-6.img-col {
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #343a40 35%, #34a1eb);;
+}
+
+#services .container .row .col-md-6.img-col img {
+    border-radius: unset;
+    transition: all .3s ease-in-out;
+    animation: rotateLeftToRight 20s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rotateLeftToRight {
+    from {
+        transform: rotateY(0);
+    }
+    to {
+        transform: rotateY(180deg);
+    }
+}
+
+/*  All Animations Ends Here */

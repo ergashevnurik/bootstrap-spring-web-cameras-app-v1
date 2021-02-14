@@ -224,7 +224,7 @@
         <div class="container">
             <h1>Services</h1>
             <div class="row">
-                <div class="col-md-6" data-aos="flip-left">
+                <div class="col-md-6 img-col" data-aos="flip-left">
                     <img class="d-block w-100" src="../static/img/carousel/1.png"  alt="Third slide">
                 </div>
                 <div class="col-md-6 display-flex" data-aos="flip-left">
