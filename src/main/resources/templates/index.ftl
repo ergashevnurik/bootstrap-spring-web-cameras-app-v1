@@ -35,9 +35,33 @@
 
     <!-- Modal MarkUp -->
     <section id="order-call-modal-div">
+        <div class="close-order-call-modal-div" id="close-order-call-modal-div">
+            <span class="btn btn-dark">&times;</span>
+        </div>
         <div class="container">
             <div class="row">
-                <h1>Hello World</h1>
+                <div class="col-md-6">
+                    <h1>Please Leave Your Details So that we can get in touch with you</h1>
+                </div>
+                <div class="col-md-6">
+                    <form action="" method="">
+                        <div class="form-group">
+                            <label for="">Full Name</label>
+                            <input type="text" class="form-control" placeholder="Enter Your Full Name...">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Phone Number</label>
+                            <input type="text" class="form-control" placeholder="Enter Your Phone Number...">
+                        </div>
+                        <div class="form-group">
+                            <label for="">Email</label>
+                            <input type="text" class="form-control" placeholder="Enter Your Email...">
+                        </div>
+                        <div class="form-group">
+                            <button class="btn btn-dark" style="width: 100%;">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     </section>

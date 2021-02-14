@@ -25,7 +25,7 @@ body {
     position: absolute;
     width: 100%;
     height: 100vh;
-    background: #343a40;
+    background: #fff!important;
     top: -1000px;
     display: flex;
     justify-content: center;
@@ -33,6 +33,21 @@ body {
     margin: auto;
     z-index: 9999;
     transition: all .4s ease-in-out;
+}
+
+#order-call-modal-div .close-order-call-modal-div {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    cursor: pointer;
+}
+
+#order-call-modal-div .close-order-call-modal-div span {
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: unset;
 }
 /* Order Call modal Div Styling Ends here */
 
