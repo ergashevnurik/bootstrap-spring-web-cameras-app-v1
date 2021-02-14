@@ -33,6 +33,16 @@
 
 <main id="main">
 
+    <!-- Modal MarkUp -->
+    <section id="order-call-modal-div">
+        <div class="container">
+            <div class="row">
+                <h1>Hello World</h1>
+            </div>
+        </div>
+    </section>
+    <!-- Modal MarkUp -->
+
     <!-- Sticky Navbar Place -->
     <div class="container-fluid bg-dark">
         <div class="container">
@@ -51,7 +61,7 @@
                 <h3 style="margin-left: 25px;" class="ml-auto sticky-top-logo">MENZ</h3>
                 <div class="ml-auto">
                     <p><i class="bi bi-phone"></i>+9989 93 396 58 86</p>
-                    <a href="tel:+9989 93 396 58 86" target="_self" class="btn btn-light">Order a Call</a>
+                    <button href="tel:+9989 93 396 58 86" target="_self" class="btn btn-light" id="order-call">Order a Call</button>
                 </div>
             </div>
         </div>
@@ -454,6 +464,10 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="../static/js/aos.js"></script>
 <!-- AOS Animation o scroll Ends Here -->
+
+<!-- Modal Pop Up Goes Here -->
+<script src="../static/js/modal.js"></script>
+<!-- Modal Pop Up Goes Here -->
 
 </body>
 </html>

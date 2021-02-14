@@ -13,6 +13,34 @@ body {
 }
 
 
+#main {
+    position: relative;
+}
+
+
+
+
+/* Order Call modal Div Styling Goes here */
+#order-call-modal-div {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #343a40;
+    top: -1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    z-index: 9999;
+    transition: all .4s ease-in-out;
+}
+/* Order Call modal Div Styling Ends here */
+
+
+
+
+
+
 /* Container-Fluid Sticky Navbar Goes Here */
 .container-fluid {
     padding: 20px;
