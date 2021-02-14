@@ -299,7 +299,13 @@
     <!-- Contacts Section Goes Here -->
     <section id="contacts">
         <div class="container">
-            <h1>C<img src="../static/img/carousel/index/contentImg.svg" style="width:50px;height:50px;" />ntacts</h1>
+            <div class="content-header">
+                <ul>
+                    <li class="ul-line"></li>
+                    <li><h1>C<img src="../static/img/carousel/index/contentImg.svg" style="width:50px;height:50px;" />ntacts</h1></li>
+                    <li class="ul-line"></li>
+                </ul>
+            </div>
             <div class="row">
                 <div class="col-md-6 display-flex">
                     <div class="col-md-12" data-aos="flip-left">

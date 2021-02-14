@@ -206,8 +206,37 @@ p {
     border: 0;
     user-select: none;
 }
+
 .col-md-4 {
     margin-bottom: 15px;
+}
+
+.content-header {
+
+}
+
+.content-header ul {
+    list-style: none;
+    display: flex;
+}
+
+.content-header ul li.ul-line {
+    width: 200px;
+    height: 3px;
+    background: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.content-header ul li h1 {
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .content-header ul {
+        display: block;
+    }
 }
 /* Constants Variables Goes Here */
 
