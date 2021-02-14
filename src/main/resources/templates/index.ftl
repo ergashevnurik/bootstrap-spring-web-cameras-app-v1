@@ -94,7 +94,7 @@
                         <i class="bi bi-twitter"></i>
                     </a>
                 </div>
-                <h3 style="margin-left: 25px;" class="ml-auto sticky-top-logo">MENZ</h3>
+                <h3 style="margin-left: 25px;" class="ml-auto sticky-top-logo">TESUS</h3>
                 <div class="ml-auto">
                     <p><i class="bi bi-phone"></i>+9989 93 396 58 86</p>
                     <button style="width: 100%;" class="btn btn-light" id="order-call">Order a Call</button>
@@ -108,7 +108,7 @@
     <nav class="navbar navbar-expand-md bg-dark sticky-top navbar-dark">
         <div class="container">
             <!-- Brand -->
-            <a class="navbar-brand" href="#">MENZ</a>
+            <a class="navbar-brand" href="#">TESUS</a>
 
             <!-- Toggler/collapsibe Button -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
