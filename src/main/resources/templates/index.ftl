@@ -41,6 +41,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
+                    <span>Web Cameras from All over the world</span>
                     <h1>Please Leave Your Details So that we can get in touch with you</h1>
                     <div class="row social-icons">
                         <a href="">
