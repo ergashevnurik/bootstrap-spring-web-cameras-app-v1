@@ -10,5 +10,5 @@ orderCallButton.onclick = function () { // Open Modal Button
 };
 
 closeOrderCallModalDivButton.onclick = function () { // Close Modal Button
-    orderCallModalDiv.style.top = '-1000px';
+    orderCallModalDiv.style.top = '-10000px';
 };
