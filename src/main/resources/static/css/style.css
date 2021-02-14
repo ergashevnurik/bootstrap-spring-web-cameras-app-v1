@@ -37,8 +37,8 @@ body {
 
 #order-call-modal-div .close-order-call-modal-div {
     position: absolute;
-    top: 50px;
-    right: 50px;
+    top: 15px;
+    right: 15px;
     cursor: pointer;
 }
 
