@@ -108,7 +108,7 @@
                         <h1 style="font-size: 5rem!important">Sticky Navbar</h1>
                         <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
                         <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
-                        <a href="" class="btn btn-dark mb-2">Let's Start</a>
+                        <a href="#contacts" class="btn btn-dark mb-2">Let's Start</a>
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -186,7 +186,7 @@
                         <h1>Sticky Navbar</h1>
                         <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
                         <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
-                        <a href="" class="btn btn-dark">Let's Start</a>
+                        <a href="#contacts" class="btn btn-dark">Let's Start</a>
                     </div>
                 </div>
             </div>
@@ -205,7 +205,7 @@
                     <h1 style="font-size: 5rem!important">Sticky Navbar</h1>
                     <p>A sticky navigation bar stays fixed at the top of the page when you scroll past it.</p>
                     <p>Scroll this page to see the effect. <strong>Note:</strong> sticky-top does not work in IE11 and earlier.</p>
-                    <a href="" class="btn btn-light" >Let's Start</a>
+                    <a href="#contacts" class="btn btn-light" >Let's Start</a>
                 </div>
             </div>
         </div>
