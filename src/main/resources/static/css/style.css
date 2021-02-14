@@ -113,7 +113,8 @@ body {
 }
 
 #hero .container .row .col-md-6 .carousel .carousel-inner .carousel-item {
-    background: linear-gradient(to bottom, #343a40 35%, #34a1eb);
+    background: #343a40;
+    /*background: linear-gradient(to bottom, #343a40 35%, #34a1eb);*/
     border-radius: 50%;
 }
 /* Hero Section Styling Ends Here */
@@ -296,7 +297,8 @@ p {
 /*  All Animations Goes Here */
 #services .container .row .col-md-6.img-col {
     border-radius: 50%;
-    background: linear-gradient(to bottom, #343a40 35%, #34a1eb);;
+    background: #343a40;
+    /*background: linear-gradient(to bottom, #343a40 35%, #34a1eb);*/
 }
 
 #services .container .row .col-md-6.img-col img {
