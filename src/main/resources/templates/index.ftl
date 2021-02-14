@@ -416,6 +416,7 @@
                     <p class="justify-content-center">
                         &copy;All Rights are reserved
                         <strong><script type="text/javascript">document.write(new Date().getFullYear())</script></strong>
+                        And Developed By <b><a href="https://menz.uz" style="color: white;text-decoration: none">MENZ</a></b>
                     </p>
                 </div>
                 <div class="ml-auto social-icons">
