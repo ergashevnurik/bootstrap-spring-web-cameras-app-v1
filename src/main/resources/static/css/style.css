@@ -196,6 +196,16 @@ nav::before {
     padding: 20px;
     color: white;
 }
+
+#link .container .row .col-md-12 h1 {
+    margin-bottom: 10px;
+}
+
+#link .container .row .col-md-12 a {
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-top: 15px;
+}
 /* Link Section Styling Ends Here */
 
 
