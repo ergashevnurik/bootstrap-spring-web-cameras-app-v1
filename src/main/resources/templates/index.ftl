@@ -365,20 +365,20 @@
                     <form>
                         <div class="form-group">
                             <label>First Name</label>
-                            <input class="form-control" placeholder="Enter First Name" name="firstName" value=""></input>
+                            <input class="form-control first-name" placeholder="Enter First Name" name="firstName" value="" />
                         </div>
                         <div class="form-group">
                             <label>Last Name</label>
-                            <input class="form-control" placeholder="Enter Last Name" name="lastName" value=""></input>
+                            <input class="form-control last-name" placeholder="Enter Last Name" name="lastName" value="" />
                         </div>
                         <div class="form-group">
                             <label>Phone Number</label>
-                            <input class="form-control" placeholder="Enter Phone Number" name="phoneNumber" value=""></input>
+                            <input class="form-control contact-number" placeholder="Enter Phone Number" name="phoneNumber" value="" />
                         </div>
                         <#--<div class="form-group">-->
                         <#--<textarea></textarea>-->
                         <#--</div>-->
-                        <button class="btn btn-dark">Submit</button>
+                        <button class="btn btn-dark contact-button">Submit</button>
                     </form>
                 </div>
             </div>
@@ -509,6 +509,11 @@
 <!-- Modal Order Call Telegram Bot Modal Goes Here JS -->
 <script src="../static/js/modalTelegramBotOrderCall.js"></script>
 <!-- Modal Order Call Telegram Bot Modal Ends Here JS -->
+
+
+<!-- Contact Telegram Bot Goes Here JS -->
+<script src="../static/js/contactTelegramBot.js"></script>
+<!-- Contact Telegram Bot Ends Here JS -->
 
 </body>
 </html>
