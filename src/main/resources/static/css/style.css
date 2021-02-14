@@ -92,7 +92,18 @@ body {
 
 
 /* Navbar Styling Goes Here */
-
+nav {
+    position: relative;
+}
+nav::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 5px;
+    background: #34a1eb;
+    width: 100%;
+    left: 0;
+}
 /* Navbar Styling Ends Here */
 
 
@@ -114,7 +125,7 @@ body {
 
 #hero .container .row .col-md-6 .carousel .carousel-inner .carousel-item {
     background: #343a40;
-    /*background: linear-gradient(to bottom, #343a40 35%, #34a1eb);*/
+    background: linear-gradient(to bottom, #343a40 35%, #34a1eb);
     border-radius: 50%;
 }
 /* Hero Section Styling Ends Here */
@@ -250,9 +261,10 @@ p {
     margin-left: 0!important;
 }
 
-.btn {
-    box-shadow: 1px 1px 12px 0 rgba(0,0,0,0.3),
-                0 6px 20px 0 rgba(0,0,0,0.4);
+.btn-dark {
+    box-shadow: 1px 1px 12px 0 #34a1eb,
+                0 6px 20px 0 #34a1eb;
+    background: #34a1eb;
     outline: 0;
     border: 0;
     user-select: none;
