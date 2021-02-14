@@ -42,6 +42,17 @@
             <div class="row">
                 <div class="col-md-6">
                     <h1>Please Leave Your Details So that we can get in touch with you</h1>
+                    <div class="row social-icons">
+                        <a href="">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="bi bi-twitter"></i>
+                        </a>
+                    </div>
                 </div>
                 <div class="col-md-6">
                     <form action="" method="">

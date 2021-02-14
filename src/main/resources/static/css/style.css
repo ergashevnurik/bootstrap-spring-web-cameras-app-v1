@@ -42,6 +42,13 @@ body {
     cursor: pointer;
 }
 
+#order-call-modal-div .container .row .col-md-6 .social-icons  a {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 36px;
+}
+
 #order-call-modal-div .close-order-call-modal-div span {
     font-size: 2rem;
     border-radius: 50%;
