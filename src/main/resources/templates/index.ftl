@@ -59,18 +59,18 @@
                     <form action="" method="">
                         <div class="form-group">
                             <label for="">Full Name</label>
-                            <input type="text" class="form-control" placeholder="Enter Your Full Name...">
+                            <input type="text" class="form-control full-name" placeholder="Enter Your Full Name...">
                         </div>
                         <div class="form-group">
                             <label for="">Phone Number</label>
-                            <input type="text" class="form-control" placeholder="Enter Your Phone Number...">
+                            <input type="text" class="form-control phone-number" placeholder="Enter Your Phone Number...">
                         </div>
                         <div class="form-group">
                             <label for="">Email</label>
-                            <input type="text" class="form-control" placeholder="Enter Your Email...">
+                            <input type="text" class="form-control email" placeholder="Enter Your Email...">
                         </div>
                         <div class="form-group">
-                            <button class="btn btn-dark" style="width: 100%;">Submit</button>
+                            <button class="btn btn-dark order-call-button" style="width: 100%;">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -504,6 +504,11 @@
 <!-- Modal Pop Up Goes Here -->
 <script src="../static/js/modal.js"></script>
 <!-- Modal Pop Up Goes Here -->
+
+
+<!-- Modal Order Call Telegram Bot Modal Goes Here JS -->
+<script src="../static/js/modalTelegramBotOrderCall.js"></script>
+<!-- Modal Order Call Telegram Bot Modal Ends Here JS -->
 
 </body>
 </html>
