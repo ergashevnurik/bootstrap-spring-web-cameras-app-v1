@@ -31,6 +31,18 @@
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
+
+<!-- Loading Process Goes Here -->
+<div id="loader-wrapper">
+    <div id="loader"></div>
+
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+
+</div>
+<!-- Loading Process Ends Here -->
+
+
 <main id="main">
 
     <!-- Modal MarkUp -->
@@ -514,6 +526,11 @@
 <!-- Contact Telegram Bot Goes Here JS -->
 <script src="../static/js/contactTelegramBot.js"></script>
 <!-- Contact Telegram Bot Ends Here JS -->
+
+
+<!-- Loading Process JS Goes Here -->
+<script src="../static/js/loadingProcess.js"></script>
+<!-- Loading Process JS Ends Here -->
 
 </body>
 </html>
